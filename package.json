@@ -1,0 +1,28 @@
+{
+  "name": "textmate-mysql-explain",
+  "version": "0.0.1",
+  "publisher": "KaiSassnowski1",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "mysql-explain",
+        "aliases": [
+          "MySQL Explain"
+        ],
+        "extensions": [
+          ".sql"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mysql-explain",
+        "scopeName": "source.mysql-explain",
+        "path": "./syntaxes/mysql-explain.json"
+      }
+    ]
+  }
+}
