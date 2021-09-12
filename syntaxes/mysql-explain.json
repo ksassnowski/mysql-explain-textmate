@@ -23,19 +23,19 @@
     },
     {
       "name": "entity.name.type.access",
-      "match": "(?<=type:\\s+)(system|const|eq_ref|ref|fulltext|ref_or_null|index_merge|unique_subquery|index_subquery|range|index|ALL)\\b"
+      "match": "(?<=type:).*?\\b(system|const|eq_ref|ref|fulltext|ref_or_null|index_merge|unique_subquery|index_subquery|range|index|ALL)\\b"
     },
     {
       "name": "entity.name.type.primary",
-      "match": "(?<=(possible_keys|key):\\s+.*?)PRIMARY\\b"
+      "match": "(?:(?<=possible_keys:)|(?<=key:)).*?\\bPRIMARY\\b"
     },
     {
       "name": "entity.name.type.select",
-      "match": "(?<=select_type:\\s+)(SIMPLE|PRIMARY|UNION|DEPENDENT UNION|UNION RESULT|SUBQUERY|DEPENDENT SUBQUERY|DERIVED|DEPENDENT DERIVED|MATERIALIZED|UNCACHEABLE SUBQUERY|UNCACHEABLE UNION)\\b"
+      "match": "(?<=select_type:).*?\\b(SIMPLE|PRIMARY|UNION|DEPENDENT UNION|UNION RESULT|SUBQUERY|DEPENDENT SUBQUERY|DERIVED|DEPENDENT DERIVED|MATERIALIZED|UNCACHEABLE SUBQUERY|UNCACHEABLE UNION)\\b"
     },
     {
       "name": "entity.name.type.ref",
-      "match": "(?<=ref:\\s+)(const|func)\\b"
+      "match": "(?<=ref:).*?\\b(const|func)\\b"
     },
     {
       "name": "support.type.property-name",

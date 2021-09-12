@@ -1,8 +1,7 @@
 {
   "name": "textmate-mysql-explain",
-  "version": "0.0.1",
-  "publisher": "KaiSassnowski1",
-  "repository": "https://github.com/ksassnowski/mysql-explain-textmate",
+  "version": "0.0.2",
+  "publisher": "Kai Sassnowski <me@kai-sassnowski.com>",
   "engines": {
     "vscode": "^1.52.0"
   },
