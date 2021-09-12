@@ -1,7 +1,7 @@
 {
   "name": "textmate-mysql-explain",
   "version": "0.0.2",
-  "publisher": "Kai Sassnowski <me@kai-sassnowski.com>",
+  "publisher": "KaiSassnowski1",
   "engines": {
     "vscode": "^1.52.0"
   },
